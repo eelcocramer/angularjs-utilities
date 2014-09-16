@@ -21,7 +21,7 @@ var rcWizardDirective = {
   'rcWizard': function () {
     return {
       restrict: 'A',
-      controller: ['$scope', function ($scope) {
+      controller: ['$scope', '$window', function ($scope, $window) {
 
         var self;
         var wizardElement;
